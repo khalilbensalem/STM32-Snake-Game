@@ -1,0 +1,7 @@
+../Core/Src/NucleoImp/MotionInput/mpu6050.c:17:16:MPU6050_Setup	18
+../Core/Src/NucleoImp/MotionInput/mpu6050.c:177:16:MPU6050_Init	1
+../Core/Src/NucleoImp/MotionInput/mpu6050.c:187:16:MPU6050_Reset	2
+../Core/Src/NucleoImp/MotionInput/mpu6050.c:207:6:MPU6050_ExtractAcc	1
+../Core/Src/NucleoImp/MotionInput/mpu6050.c:217:6:MPU6050_ExtractGyro	1
+../Core/Src/NucleoImp/MotionInput/mpu6050.c:227:6:MPU6050_ExtractTemperature	1
+../Core/Src/NucleoImp/MotionInput/mpu6050.c:232:16:MPU6050_ReadData	2

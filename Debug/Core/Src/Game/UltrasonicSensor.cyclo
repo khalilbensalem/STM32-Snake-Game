@@ -1,0 +1,6 @@
+../Core/Src/Game/UltrasonicSensor.cpp:29:1:ELE3312::UltrasonicSensor::UltrasonicSensor()	1
+../Core/Src/Game/UltrasonicSensor.cpp:46:6:void ELE3312::UltrasonicSensor::setup(TIM_HandleTypeDef*, GPIO_TypeDef*, uint16_t)	1
+../Core/Src/Game/UltrasonicSensor.cpp:64:6:void ELE3312::UltrasonicSensor::trigger()	2
+../Core/Src/Game/UltrasonicSensor.cpp:89:6:void ELE3312::UltrasonicSensor::updateDistance(uint32_t)	3
+../Core/Src/Game/UltrasonicSensor.cpp:122:7:float ELE3312::UltrasonicSensor::getDistance() const	1
+../Core/Src/Game/UltrasonicSensor.cpp:132:6:bool ELE3312::UltrasonicSensor::isInTargetZone() const	3

@@ -1,0 +1,9 @@
+../Core/Src/NucleoImp/RGBLight/RGBLED.cpp:23:6:void ELE3312::RGBLED::setup(TIM_HandleTypeDef*, uint32_t, uint32_t, uint32_t)	1
+../Core/Inc/Interfaces/RGBLight/RGBLight.h:16:8:constexpr ELE3312::RGBLight::RGBLight()	1
+../Core/Src/NucleoImp/RGBLight/RGBLED.cpp:38:1:ELE3312::RGBLED::RGBLED()	1
+../Core/Src/NucleoImp/RGBLight/RGBLED.cpp:50:6:void ELE3312::RGBLED::setDutyCycleForChannel(uint32_t, uint32_t)	6
+../Core/Src/NucleoImp/RGBLight/RGBLED.cpp:76:6:virtual void ELE3312::RGBLED::setColorRGB(uint8_t, uint8_t, uint8_t)	1
+../Core/Src/NucleoImp/RGBLight/RGBLED.cpp:90:6:virtual void ELE3312::RGBLED::toggle()	2
+../Core/Src/NucleoImp/RGBLight/RGBLED.cpp:101:6:virtual void ELE3312::RGBLED::turnOn()	1
+../Core/Src/NucleoImp/RGBLight/RGBLED.cpp:112:6:virtual void ELE3312::RGBLED::turnOff()	1
+../Core/Src/NucleoImp/RGBLight/RGBLED.cpp:125:6:virtual bool ELE3312::RGBLED::isOn()	1

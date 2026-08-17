@@ -1,0 +1,6 @@
+C:\ST\STM32CubeIDE_1.19.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344\tools\arm-none-eabi\include\c++\13.3.1\arm-none-eabi\thumb\v7e-m+fp\hard\bits\gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	1
+../Core/Src/Interfaces/Communication/Message.cpp:18:1:ELE3312::Message::Message(ELE3312::MessageType)	1
+../Core/Src/Interfaces/Communication/Message.cpp:26:6:void ELE3312::Message::setType(ELE3312::MessageType)	1
+../Core/Src/Interfaces/Communication/Message.cpp:34:6:void ELE3312::Message::setValid(bool)	1
+../Core/Src/Interfaces/Communication/Message.cpp:42:13:ELE3312::MessageType ELE3312::Message::getType()	1
+../Core/Src/Interfaces/Communication/Message.cpp:50:6:bool ELE3312::Message::isValid()	1

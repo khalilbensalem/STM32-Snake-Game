@@ -1,0 +1,7 @@
+../Core/Inc/Interfaces/AnalogInput/AnalogInput.h:16:8:ELE3312::AnalogInput::AnalogInput()	16	static
+../Core/Src/NucleoImp/AnalogInput/ADCInput.cpp:19:1:ELE3312::ADCInput::ADCInput()	16	static
+../Core/Src/NucleoImp/AnalogInput/ADCInput.cpp:25:6:void ELE3312::ADCInput::setup(ADC_HandleTypeDef*)	24	static
+../Core/Src/NucleoImp/AnalogInput/ADCInput.cpp:49:1:ELE3312::ADCInput::~ADCInput()	16	static
+../Core/Src/NucleoImp/AnalogInput/ADCInput.cpp:59:6:virtual void ELE3312::ADCInput::update()	24	static
+../Core/Src/NucleoImp/AnalogInput/ADCInput.cpp:72:9:virtual int32_t ELE3312::ADCInput::getRawValue() const	16	static
+../Core/Src/NucleoImp/AnalogInput/ADCInput.cpp:81:10:virtual uint16_t ELE3312::ADCInput::getPercentage() const	16	static

@@ -1,0 +1,25 @@
+../Core/Inc/Game/MySnake.h:61:15:ELE3312::Direction ELE3312::MySnake::getDirection() const	16	static
+../Core/Inc/Game/MySnake.h:98:10:ELE3312::tile ELE3312::MySnake::headTile() const	16	static
+../Core/Inc/Game/MySnake.h:103:10:ELE3312::tile ELE3312::MySnake::getTailTile() const	16	static
+../Core/Inc/Game/MySnake.h:140:10:bool ELE3312::MySnake::containsPoint(int, int) const	32	static
+../Core/Inc/Game/MySnake.h:155:10:bool ELE3312::MySnake::checkSelfCollision(int&) const	24	static
+../Core/Inc/Game/MySnake.h:176:10:void ELE3312::MySnake::erase(ELE3312::Display*, int) const	72	static
+../Core/Inc/Game/MySnake.h:207:10:void ELE3312::MySnake::draw(ELE3312::Display*, ELE3312::Color, int, ELE3312::Color) const	80	static
+../Core/Inc/Game/MySnake.h:244:16:int ELE3312::MySnake::ring(int) const	16	static
+../Core/Src/Game/SnakeGame.cpp:38:1:ELE3312::SnakeGame::SnakeGame(ELE3312::Display*, ELE3312::Keypad*, ELE3312::MotionInput*, UART_HandleTypeDef*)	24	static
+../Core/Src/Game/SnakeGame.cpp:56:6:void ELE3312::SnakeGame::setupPlayers(bool)	4864	static
+../Core/Src/Game/SnakeGame.cpp:87:6:void ELE3312::SnakeGame::init()	96	static
+../Core/Src/Game/SnakeGame.cpp:113:6:bool ELE3312::SnakeGame::processUartByte(uint8_t)	32	static
+../Core/Src/Game/SnakeGame.cpp:153:6:void ELE3312::SnakeGame::processInputs(uint16_t)	24	static
+../Core/Src/Game/SnakeGame.cpp:183:6:void ELE3312::SnakeGame::updateDirectionFromIMU()	32	static
+../Core/Src/Game/SnakeGame.cpp:212:6:bool ELE3312::SnakeGame::tick()	48	static
+../Core/Src/Game/SnakeGame.cpp:246:6:void ELE3312::SnakeGame::sendDirection(bool)	24	static
+../Core/Src/Game/SnakeGame.cpp:259:6:void ELE3312::SnakeGame::sendGameOver()	24	static
+../Core/Src/Game/SnakeGame.cpp:273:15:ELE3312::CollisionType ELE3312::SnakeGame::checkCollisions()	32	static
+../Core/Src/Game/SnakeGame.cpp:300:6:void ELE3312::SnakeGame::spawnAllFruits()	24	static
+../Core/Src/Game/SnakeGame.cpp:314:6:void ELE3312::SnakeGame::respawnFruit(int)	40	static
+../Core/Src/Game/SnakeGame.cpp:353:5:int ELE3312::SnakeGame::checkFruitCollision()	32	static
+../Core/Src/Game/SnakeGame.cpp:373:6:void ELE3312::SnakeGame::drawFruit(int)	48	static
+../Core/Src/Game/SnakeGame.cpp:388:6:void ELE3312::SnakeGame::drawAllFruits()	24	static
+../Core/Src/Game/SnakeGame.cpp:399:6:void ELE3312::SnakeGame::eraseTile(int, int)	48	static
+C:\ST\STM32CubeIDE_1.19.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.0.202411081344\tools\arm-none-eabi\include\c++\13.3.1\bits\new_allocator.h:104:7:std::__new_allocator<_Tp>::~__new_allocator() [with _Tp = char]	16	static

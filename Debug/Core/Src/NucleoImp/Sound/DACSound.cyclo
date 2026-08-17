@@ -1,0 +1,20 @@
+../Core/Inc/Interfaces/Sound/Sound.h:64:18:virtual void ELE3312::Sound::setWaveform(ELE3312::Waveform)	1
+../Core/Inc/Interfaces/Sound/Sound.h:70:18:virtual bool ELE3312::Sound::isEnabled() const	1
+../Core/Src/NucleoImp/Sound/DACSound.cpp:42:6:void ELE3312::HAL_DAC_ConvHalfCpltCallbackCh1(DAC_HandleTypeDef*)	2
+../Core/Src/NucleoImp/Sound/DACSound.cpp:56:6:void ELE3312::HAL_DAC_ConvCpltCallbackCh1(DAC_HandleTypeDef*)	2
+../Core/Inc/Interfaces/Sound/Sound.h:34:7:ELE3312::Sound::Sound()	1
+../Core/Src/NucleoImp/Sound/DACSound.cpp:79:1:ELE3312::DACSound::DACSound()	1
+../Core/Src/NucleoImp/Sound/DACSound.cpp:95:6:void ELE3312::DACSound::setup(DAC_HandleTypeDef*, TIM_HandleTypeDef*, uint64_t)	1
+../Core/Src/NucleoImp/Sound/DACSound.cpp:118:6:void ELE3312::DACSound::generateWaveformLUT(ELE3312::Waveform)	5
+../Core/Src/NucleoImp/Sound/DACSound.cpp:153:6:void ELE3312::DACSound::fillBufferHalf(uint32_t*, uint32_t, uint32_t)	3
+../Core/Src/NucleoImp/Sound/DACSound.cpp:173:6:virtual void ELE3312::DACSound::setNote(const ELE3312::Note&)	1
+../Core/Src/NucleoImp/Sound/DACSound.cpp:184:6:void ELE3312::DACSound::startPlayback()	1
+../Core/Src/NucleoImp/Sound/DACSound.cpp:199:6:virtual void ELE3312::DACSound::enableSound()	2
+../Core/Src/NucleoImp/Sound/DACSound.cpp:209:6:virtual void ELE3312::DACSound::disableSound()	1
+../Core/Src/NucleoImp/Sound/DACSound.cpp:220:6:virtual void ELE3312::DACSound::setFrequency(float)	1
+../Core/Src/NucleoImp/Sound/DACSound.cpp:230:6:virtual void ELE3312::DACSound::update()	1
+../Core/Src/NucleoImp/Sound/DACSound.cpp:239:6:virtual void ELE3312::DACSound::setAmplitude(uint16_t)	1
+../Core/Src/NucleoImp/Sound/DACSound.cpp:248:10:virtual uint16_t ELE3312::DACSound::getAmplitude() const	1
+../Core/Src/NucleoImp/Sound/DACSound.cpp:260:5:int ELE3312::DACSound::generateWaveLUT(uint32_t*, uint32_t*)	1
+../Core/Inc/NucleoImp/Sound/DACSound.h:70:10:ELE3312::DACSound::~DACSound()	1
+../Core/Inc/NucleoImp/Sound/DACSound.h:70:10:virtual ELE3312::DACSound::~DACSound()	1

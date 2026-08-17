@@ -1,0 +1,6 @@
+../Core/Inc/Game/MySnake.h:244:16:int ELE3312::MySnake::ring(int) const	1
+../Core/Src/Game/MySnake.cpp:30:1:ELE3312::MySnake::MySnake(int, int, ELE3312::Direction)	1
+../Core/Src/Game/MySnake.cpp:44:6:void ELE3312::MySnake::init(int, int)	1
+../Core/Src/Game/MySnake.cpp:60:6:bool ELE3312::MySnake::setDirection(ELE3312::Direction)	9
+../Core/Src/Game/MySnake.cpp:79:6:void ELE3312::MySnake::move(int)	10
+../Core/Src/Game/MySnake.cpp:120:6:void ELE3312::MySnake::turn(int)	1
